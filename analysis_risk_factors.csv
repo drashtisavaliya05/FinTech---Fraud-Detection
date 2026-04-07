@@ -1,0 +1,15 @@
+Risk Factor,Normal Cases,Fraud Cases,Normal %,Fraud %,Risk Multiplier
+Extreme Login Attempts (>=4),13,51,0.544844929,40.47619048,72.95045585
+Very High Login Attempts (>2),39,56,1.634534786,44.44444444,27.02554231
+Negative Balance After Txn,56,63,2.347024308,50,21.2131881
+Multiple Login Attempts (>1),63,59,2.640402347,46.82539683,17.66727866
+Extreme Amount (>95th pct),87,39,3.646269908,30.95238095,8.465562372
+Very High Amount (>90th pct),191,61,8.005029338,48.41269841,6.040239701
+Very Low Balance (<10th pct),194,58,8.130762783,46.03174603,5.654475786
+High Amount (>75th pct),549,79,23.00922045,62.6984127,2.723741789
+Low Balance (<25th pct),551,77,23.09304275,61.11111111,2.645154224
+Very Long Duration (>200s),299,31,12.53143336,24.6031746,1.961751412
+Long Duration (>150s),700,50,29.33780386,39.68253968,1.352146821
+Business Hours Transaction,2043,92,85.62447611,73.01587302,0.852645761
+Weekend Transaction,0,0,0,0,0
+Night Transaction,0,0,0,0,0
